@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.8.1/css/foundation.min.css">
+  <!-- Google Fonts (Montserrat + Open Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome (íconos) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+     <!-- ========== NAVEGACIÓN (Foundation Top Bar) ========== -->
+  <div class="top-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+    <div class="top-bar-left">
+      <ul class="menu">
+        <li class="menu-text logo-colegio"><i class="fas fa-graduation-cap" style="margin-right: 8px; color: var(--dorado-accent);"></i>Colegio<span>·Web</span></li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu" data-responsive-menu="drilldown medium-dropdown">
+        <li class="active"><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#oferta">Oferta</a></li>
+        <li><a href="#admisiones">Admisiones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+    <!-- ========== INICIO / HOMEPAGE ========== -->
+<section id="inicio">
+  <!-- Banner dinámico -->
+  <div class="hero-banner text-center">
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x align-center">
+        <div class="cell medium-10 large-8">
+          <h1><i class="fas fa-chalkboard-teacher text-dorado" style="margin-right: 10px;"></i>Educación que trasciende</h1>
+          <p class="propuesta">Formación integral con valores, innovación y calidez humana. Conoce nuestros proyectos.</p>
+          <a href="#admisiones" class="button btn-dorado">Inscríbete ahora <i class="fas fa-arrow-right" style="margin-left: 8px;"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portales de acceso rápido + noticias -->
+  <div class="grid-container" style="margin-top: -2rem; position: relative; z-index: 2;">
+    <div class="grid-x grid-margin-x align-center">
+      <div class="cell medium-3 small-6">
+        <div class="portal-card text-center">
+          <i class="fas fa-user-graduate"></i>
+          <h4>Portal Estudiantil</h4>
+          <p class="text-small">Calificaciones, horarios y recursos.</p>
+        </div>
+      </div>
+      <div class="cell medium-3 small-6">
+        <div class="portal-card text-center">
+          <i class="fas fa-chalkboard"></i>
+          <h4>Docentes</h4>
+          <p class="text-small">Planeación y herramientas.</p>
+        </div>
+      </div>
+      <div class="cell medium-3 small-6">
+        <div class="portal-card text-center">
+          <i class="fas fa-users"></i>
+          <h4>Padres de familia</h4>
+          <p class="text-small">Comunicación y seguimiento.</p>
+        </div>
+      </div>
+      <div class="cell medium-3 small-6">
+        <div class="portal-card text-center">
+          <i class="fas fa-newspaper"></i>
+          <h4>Noticias</h4>
+          <p class="text-small">Eventos y logros académicos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
